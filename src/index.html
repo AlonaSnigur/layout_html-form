@@ -39,8 +39,8 @@
             autocomplete="off">
         </div>
 
-        <div class="form-field">
-          <label for="Years">How old are you?</label>
+        <div class="form-field" id="Year">
+          <label for="Years">How old are You?</label>
           <input
             type="number"
             id="Years"
@@ -49,7 +49,7 @@
         </div>
 
         <div class="form-field">
-          <label for="Data">Full data of birth:</label>
+          <label for="Data">Full date of birth:</label>
           <input type="date" id="Data">
         </div>
 
@@ -102,13 +102,16 @@
         </div>
 
         <div class="form-field">
-          <label for="Color">What your favorite color?</label>
+          <label for="Color">What is your favorite color?</label>
           <input type="color" id="Color">
         </div>
 
         <div class="form-field">
           <label for="TimeToSleep">What time do you go to bed?</label>
-          <input type="time" id="TimeToSleep">
+          <input
+            type="time"
+            id="TimeToSleep"
+            step="2">
         </div>
 
         <div class="form-field">
@@ -149,7 +152,7 @@
         </div>
 
         <div class="form-field">
-          <label for="Recommend">Would do you recommend us?</label>
+          <label for="Recommend">Would you recommend us?</label>
           <select name="Recommend" id="Recommend">
             <option value="yes">Yes</option>
             <option value="no">No</option>
@@ -158,7 +161,7 @@
       </fieldset>
 
 
-      <button type="submit" disabled>Submit</button>
+      <button type="submit">Submit</button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
