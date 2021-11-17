@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,YACE,kBACF,CAEA,yBACE,eACF,CAEA,YACE,cACF,CAEA,SACE,kBACF","file":"style.3e809876.css","sourceRoot":"..\\src","sourcesContent":[".form-field {\n  margin-bottom: 10px;\n}\n\n.form-field:last-of-type {\n  margin-bottom: 0;\n}\n\n.year input {\n  max-width: 65px;\n}\n\nfieldset {\n  margin-bottom: 20px;\n}\n"]}
